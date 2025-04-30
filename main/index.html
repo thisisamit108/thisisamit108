@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icon on tab -->
+    <link rel="icon" href="/IMAGE/ABOUT/post_2.png">
+    
+    <title>Portfolio</title>
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+   
+    <!-- font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- bootstrap link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap link -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    
+    <!-- navbar -->
+    <header class="absolute ml-2 mr-4 mt-2 menus ">
+        <div class="offcanvas offcanvas-start w-52 h-96 text-justify" id="navbar">
+
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title text-3xl font-bold">Menus</h1>
+                <button class="btn-close bg-white" data-bs-dismiss="offcanvas" type="button"></button>
+            </div>
+                
+            <div class="offcanvas-body">
+                <ul class="text-xl font-semibold">
+                    <li class="px-3"><a href="#home">HOME</i></a></li>
+                    <li class="px-3"><a href="#about">ABOUT</a></li>
+                    <li class="px-3"><a href="#skills">SKILLS</a></li>
+                    <li class="px-3"><a href="#projects">PROJECTS</a></li>
+                    <li class="px-3"><a href="#soft-skills">SOFT-SKILLS</a></li>
+                    <li class="px-3"><a href="#activity">ACTIVITY</a></li>
+                    <li class="px-3"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid fixed">
+                
+            <button class="btn btn-secondary mt-4 get-button text-black" 
+            data-bs-toggle="offcanvas" data-bs-target="#navbar"  type="button">
+                <i class="fa-solid fa-list"></i>
+            </button>
+        </div>
+    </header>
+
+     <!-- Intro Section -->
+    <section class="intro flex items-center justify-center" id="home">
+        <div class="text-center ">
+           
+            <h1 class="text-7xl font-bold text-[wheat] mb-[1.5rem] transition-300 tracking-wide">This is <span>Amit Mathur</span></h1>
+            <p class="text-xl tracking-wider font-semibold">Frontend Developer & Designer</p>
+                                                 <!-- <a href="#contact" class="cta-button">Get in Touch</a> -->
+            <a href="#contact" class="btn btn-outline-primary rounded-[9999px] get-button transform hover:scale-110 hover:shadow-lg transition-300">
+                <button class="">
+                    <h6 class="font-semibold text-[wheat] tracking-wider">Get in Touch</h6>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        
+        <div class="space-y-6 px-4 container">
+            
+            <h1 class="text-6xl font-bold text-center tracking-wide text-[wheat]">Get to <span>Know Me!</span></h1></h1>
+          
+            <div class="flex flex-col md:flex-row md:justify-between md:space-x-6 space-y-6 md:space-y-0 items-center">
+              
+                <div class="flex flex-col sm:flex-row w-full mt-16 items-center justify-between space-y-4    sm:space-y-0 sm:space-x-4" style="display: grid; grid-template-columns: 1fr 1fr;">
+                   
+                    <p class="text-left flex-1 text-[wheat] max-w-42 tracking-wider text-justify capitalize text-lg leading-[30px]" >An individual driven by passion and energy, eager to take on new challenges, Currently pursuing a Bachelor of Computer Applications (BCA) with a keen interest in software development, Cyber Security, and IT management..</p>
+                    <img src="/IMAGE/ABOUT/post_1.png" alt="" class="w-42 h-32 rounded cursor-pointer" style="justify-self: end; "/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container skills" id="skills">
+
+        <h1 class="text-center text-6xl text-[wheat] text-bold tracking-wide mt-1">Professional <span
+        class="text-[font]">Arsenal</span></h1>
+
+        <div class="skills-grid-1 row flex items-center slider mt-5 justify-between min-h-screen min-w-screen">
+            
+            <div class="flex text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center backdrop-blur-sm slide">
+                <div class="card card-1 bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/html.png" alt="html" class="card-img-top h-[89px] w-[88px] ml-5">
+                        <p class="card-title text-2xl font-bold tracking-wider mt-3">HTML</p>
+                        <p class="font-semibold card-text tracking-wide">WEB DEVELOPING </p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="flex text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center  backdrop-blur-sm  slide">
+                <div class="card card-1  bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/css.png" alt="html" class="card-img-top h-[122px] w-[120px] ml-3">
+                        <p class="card-title text-2xl font-bold tracking-wider">CSS</p>
+                        <p class="font-semibold card-text tracking-wide">WEB DEVELOPING </p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="flex text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center  backdrop-blur-sm slide">
+                <div class="card card-1  bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/tailwind.png" alt="html" class="mb-[42px] card-img-top">
+                        <p class="card-title text-2xl font-bold tracking-wider">TAILWIND</p>
+                        <p class="font-semibold card-text tracking-wide">WEB DEVELOPING </p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center flex backdrop-blur-sm slide">
+                <div class="card card-1  bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/c.png" alt="html" class="card-img-top h-[92px] w-[102px] mb-4 ml-4">
+                        <p class="card-title text-[20px] font-bold">C-LANGUAGE</p>
+                        <p class="card-text font-semibold tracking-wide uppercase">Software Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+       
+        <div class="container slider">
+            
+            <h1 class="text-center text-6xl text-[wheat] text-bold tracking-wide mt-1">Creative <span>Venture</span></h1>
+            
+            <!-- amazon -->
+            <div class="projects-grid text-white cursor-pointer">
+               
+                <div class="card bg-[#1c1c1c] rounded-lg slide">
+                    
+                    <div class="project-content card-body">
+
+                        <div class="project-image h-[12rem]">
+                            <img src="/IMAGE/PROJECT/img.png" class="card-img-top rounded-md">
+                        </div>
+                        <h2 class="card-title mt-4 mb-[0.5rem] font-bold text-xl tracking-wider uppercase">Amazon U.I</h2>
+                        <p class="card-text mt-8 mb-8 text-lg font-semibold tracking-wide max-w-2xl mx-auto">It is a E-Commerce Website, U.I of Amazon and Made By HTML, CSS, TAILWIND CSS, BOOTSTRAP.</p>
+                        <a href="#" class="card-text">View Project →</a>
+                    </div>
+                </div>
+                
+                <!-- netflex ui -->
+                <div class="card  bg-[#1c1c1c] rounded-lg slide">
+
+                    <div class="project-content card-body">
+                        <div class="project-image h-[12rem]">
+                            <img src="/IMAGE/PROJECT/img2.png" class="card-img-top rounded-md">
+                        </div>
+
+                        <h2 class="card-title mt-4 mb-[0.5rem] font-bold text-xl tracking-wider uppercase">Netflex U.I</h2>
+                        <p class="card-text mt-8 mb-8 text-lg font-semibold tracking-wide max-w-2xl mx-auto">It is a OTT, Movies, Web-Series Platform Website, U.I of Netflex and Made By HTML, CSS, TAILWIND CSS.</p>
+                        <a href="#" class="card-text">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- dashboard 1 -->
+                <div class="card bg-[#1c1c1c] rounded-lg slide">
+
+                    <div class="project-content card-body">
+                        <div class="project-image h-[12rem]">
+                            <img src="/IMAGE/PROJECT/img3.png" class="card-img-top rounded-md"> 
+                        </div>
+
+                        <h2 class="card-title mt-4 mb-[0.5rem] font-bold text-xl tracking-wider uppercase">Dashboard-1 </h2>
+                        <p class="card-text mt-4 mb-8 text-lg font-semibold tracking-wide max-w-2xl mt-0 mx-auto mb-6">It's based on Event Management And Oraganization and Made By HTML, CSS, TAILWIND CSS.</p>
+                        <a href="#" class="card-text">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Soft Skills Section -->
+     <section class="container skills" id="soft-skills">
+
+        <h1 class="text-center text-6xl text-[wheat] text-bold tracking-wide mt-1">Core <span
+        class="text-[font]">Competencies</span></h1>
+
+        <div class="skills-grid-1 row flex items-center cursor-pointer slider mt-5 justify-between min-h-screen min-w-screen">
+            
+            <div class="flex text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center backdrop-blur-sm slide">
+                <div class="card card-1 bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/tl.png" alt="Team Leadership" class="card-img-top [85px] w-[102px] ml-4 mb-10 ">
+                        <p class="card-title text-xl font-bold">Team Leadership</p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="flex text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center  backdrop-blur-sm  slide">
+                <div class="card card-1  bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/tm.png" alt="team management" class="card-img-top [85px] w-[102px] ml-4 mb-10 " >
+                        <p class="card-title text-lg font-bold">TEAM MANGEMENT</p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="flex text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center  backdrop-blur-sm slide">
+                <div class="card card-1  bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/communication.png" alt="communication" class="mb-10 card-img-top h-[85px] w-[88px] ml-5">
+                        <p class="card-title text-lg font-bold">COMMUNICATION</p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="text-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-6 justify-center flex backdrop-blur-sm slide">
+                <div class="card card-1  bg-[#1c1c1c]">
+                    <div class="card-body rounded-lg">
+                        <img src="/IMAGE/SKILLS/adpotability.png" alt="adoptability" class="card-img-top mb-[52px] h-[99px] w-[95px] ml-4">
+                        <p class="card-title text-lg  font-bold">ADOPTABILITY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact" id="contact">
+       
+        <div class="container text-[wheat]">
+            
+            <h1 class="text-center text-6xl font-bold mb-6 tracking-wider">Let's <span class="text-[#9333ea]">Connect</span></h1>
+            
+            <p class="text-center text-lg font-semibold tracking-wide mb-10">I'm always open to new opportunities and interesting projects.</p>
+            
+            <div class="social-links flex justify-center tracking-wider text-lg">
+        
+                <a href="https://linkedin.com/in/thisisamitt/" target="_blank" class="mx-3">LinkedIn</a>
+                
+                <a href="#" target="_blank" class="mx-3">GitHub</a>
+                
+                <a href="https://instagram.com/_thisisamitt/" target="_blank" class="mx-3">Instagram</a>
+            </div>
+             
+        </div>
+    </footer>
+</body>
+</html>
